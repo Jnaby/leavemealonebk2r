@@ -8,6 +8,11 @@ const developers = ['485554728349204500'];
 
 
 
+
+
+
+
+
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
